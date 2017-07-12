@@ -1,9 +1,4 @@
-require 'sinatra'
-
 get '/' do
-  "Hello Wolrd!"
-end
-
-get '/bye' do
-  "Good Bye!"
+  @title = 'Welcome to the Suffragist!'
+  erb :index
 end
